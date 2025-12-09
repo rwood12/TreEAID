@@ -5,32 +5,25 @@ TreEAID is an open-source framework designed to automate the detection, characte
 
 ---
 
-## Features
+# Features
 
-### Automated Treefall and Root-Ball Detection
-Uses YOLO-based instance segmentation models trained on thousands of manually annotated treefall and root-ball instances.
+- **Automated Treefall and Root-Ball Detection:** Uses YOLO-based instance segmentation models trained on thousands of manually annotated treefall and root-ball instances.
 
-### Shape-Aware Mask Refinement
-Applies SA-NMS and geometric reconstruction methods to correct fragmented or overlapping predictions.
+- **Shape-Aware Mask Refinement:** Applies SA-NMS and geometric reconstruction methods to correct fragmented or overlapping predictions.
 
-### Geometric Characterization
-Computes orientation, length, thickness, taper rate, root-ball axes, and other quantitative metrics.
+- **Geometric Characterization:** Computes orientation, length, thickness, taper rate, root-ball axes, and other quantitative metrics.
 
-### Wind-Field Mapping
-Aggregates orientation vectors within grid cells to generate spatial wind-direction fields for tornado analysis.
+- **Wind-Field Mapping:** Aggregates orientation vectors within grid cells to generate spatial wind-direction fields for tornado analysis.
 
-### Tile Boundary Correction
-Consolidates duplicated or partial vectors across image tiles using ROI-based vector aggregation.
+- **Tile Boundary Correction:** Consolidates duplicated or partial vectors across image tiles using ROI-based vector aggregation.
 
-### GIS-Ready Output
-Exports refined vectors and feature tables to standard formats for QGIS, ArcGIS, or other geospatial workflows.
+- **GIS-Ready Output:** Exports refined vectors and feature tables to standard formats for QGIS, ArcGIS, or other geospatial workflows.
 
-### Graphical User Interface
-Provides structured model execution, visualization, and export options without requiring extensive coding.
+- **Graphical User Interface:** Provides structured model execution, visualization, and export options without requiring extensive coding.
 
 ---
 
-## Input Requirements
+# Input Requirements
 
 - Orthomosaic or tiled aerial imagery (≈1.5–5 cm GSD preferred).  
 - Corrected geographic metadata in EPSG-consistent coordinate systems.  
@@ -38,29 +31,28 @@ Provides structured model execution, visualization, and export options without r
 
 ---
 
-## Core Workflow
+# Core Workflow
 
-### Image Preprocessing
-Tiling, metadata confirmation, and optional brightness normalization.
+- Image Preprocessing Tiling, metadata confirmation, and optional brightness normalization.
 
-### Deep-Learning Inference
+- Deep-Learning Inference
 Segmentation of fallen trees and root balls.
 
-### Shape-Aware Refinement
+- Shape-Aware Refinement
 Application of SA-NMS and α-shape reconstruction.
 
-### Feature Extraction
+- Feature Extraction
 Orientation estimation via taper analysis, trunk geometry, and root-ball dimension calculations.
 
-### Vector Aggregation and Boundary Correction
+- Vector Aggregation and Boundary Correction
 Merging and filtering vectors to ensure spatial continuity across large areas.
 
-### Export and Visualization
+- Export and Visualization
 GIS-ready shapefiles, GeoPackages, summary tables, and wind-direction maps.
 
 ---
 
-## Applications
+# Applications
 
 - Post-storm reconnaissance  
 - Tornado-terrain interaction studies  
