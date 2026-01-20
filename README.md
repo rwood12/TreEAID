@@ -5,6 +5,7 @@ TreEAID is an open-source framework designed to automate the detection, characte
 
 <img width="1066" height="256" alt="TreEAID_logo (1)" src="https://github.com/user-attachments/assets/4ad020b8-3bbc-4543-8457-c9de7a6b2123" />
 
+<img width="1417" height="432" alt="TreEAID Recreated" src="https://github.com/user-attachments/assets/ac2da1fc-d474-4bc3-91c6-b4a5f6a2222e" />
 
 
 ---
