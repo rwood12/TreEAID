@@ -3,8 +3,9 @@
 
 TreEAID is an open-source framework designed to automate the detection, characterization, and geospatial analysis of tornado-induced treefall and root-ball disturbance using high-resolution aerial imagery. The system integrates deep-learning segmentation, shape-aware post-processing, geometric feature extraction, and spatial aggregation to support large-scale post-storm assessments and near-surface wind-field interpretation.
 
+<img width="1066" height="256" alt="TreEAID_logo (1)" src="https://github.com/user-attachments/assets/4ad020b8-3bbc-4543-8457-c9de7a6b2123" />
 
-<img width="183" height="46" alt="image" src="https://github.com/user-attachments/assets/3e95cfdd-6c30-46a8-876a-b77c599ea86e" />
+
 
 ---
 
