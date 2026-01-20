@@ -1,8 +1,8 @@
 ## About the Software
 
 **Software:** Treefall Evaluation, Analysis, and Identification through Deep Learning (TreEAID)  
-**Version:** 4.2.0  
-**Date:** October 31, 2025  
+**Version:** 4.2.1  
+**Date:** January 19, 2026  
 
 ---
 
